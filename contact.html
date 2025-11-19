@@ -1,0 +1,49 @@
+<nav>
+    <a href="index.html">Home</a>
+    <a href="enquiry.html">Enquiry</a>
+    <a href="contact.html">Contact</a>
+</nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="enquiry.html">Enquiry</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="form-container">
+    <h2>Contact Us</h2>
+
+    <form id="contactForm">
+
+        <label>Full Name</label>
+        <input type="text" id="contactName" placeholder="Your full name">
+
+        <label>Email Address</label>
+        <input type="email" id="contactEmail" placeholder="example@gmail.com">
+
+        <label>Subject</label>
+        <input type="text" id="contactSubject" placeholder="Enter the subject">
+
+        <label>Message</label>
+        <textarea id="contactMessage" rows="5" placeholder="Write your message"></textarea>
+
+        <p id="contactError" class="error"></p>
+        <p id="contactSuccess" class="success"></p>
+
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+
+<script src="js/contact.js"></script>
+</body>
+</html>
